@@ -1,7 +1,5 @@
-
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 # Linear Algebra
 
 
-<img src="https://i.upmath.me/svg/x%5E2%20%2B%202x%20%2B%203" alt="x^2 + 2x + 3" />
-
-In these notes, we discuss linear algebra in full. Otherwise, blow it out your ass. Pee pee poo poo, macky macky goes moo.
+Taking $x^2$ to be a function, we have $$f(x) = \int_{0}^{1} F(x) dx$$ and hence the theorem is proved.
