@@ -3,7 +3,7 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-# Linear Algebra
+# Lie Algae Bra
 
 
 $$M = \left( \begin{array}{ccc}
