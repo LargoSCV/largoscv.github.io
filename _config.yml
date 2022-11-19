@@ -16,7 +16,7 @@
 title: Geometric Measure Theory
 tagline: 
 description: A course in geometry on not-neccessarily-smooth surfaces.
-author: @LargoSCV
+author: LargoSCV
 baseurl:
 url: 'https://largoscv.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
