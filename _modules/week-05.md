@@ -1,14 +1,14 @@
 ---
-title: Week 5 - Lebesgue Integration
+title: Week 5 - Linear Functionals
 ---
-**READ**: Federer pp. 79-91
-**NO HW THIS WEEK**
+**READ**: Federer pp. 91-114
+
 
 Jan 11
 : **Study Session**{: .label .label-blue } Wednesday Study Session
   : [Study Session Notes](#)
   
 Jan 14
-: **Meeting**{: .label .label-blue } 2.4 Discussion
+: **Meeting**{: .label .label-blue } 2.5 Discussion
   : [Study Session Notes](#)
-: **QUIZ**{: .label .label-red }
+: **HW 5 Due**{: .label .label-red }

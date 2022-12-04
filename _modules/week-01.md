@@ -1,7 +1,7 @@
 ---
-title: Week 1 - Multilinear Algebra I
+title: Week 1 - Measures and Measurable Sets
 ---
-**READ**: Federer pp. 8-23
+**READ**: Federer pp. 50-59
 
 Dec 10
 : **Meeting**{: .label .label-red } Overview of Geometric Measure Theory
@@ -12,6 +12,6 @@ Dec 14
   : [Study Session Notes](#)
 
 Dec 17
-: **Meeting**{: .label .label-red } 1.1 - 1.5 Discussion
+: **Meeting**{: .label .label-red } 2.1 Discussion
   : [Meeting Notes](#), [HW 1 Solution](#)
 : **HW 1 Due**{: .label .label-red }

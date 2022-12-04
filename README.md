@@ -17,7 +17,7 @@ The general concept of current, defined as a real valued linear function on the 
 
 # About *Geometric Measure Theory* by Herbert Federer
 
-In this course, we will be using the textbook *Geometric Measure Theory* by Herbert Federer. The goal of this course is to read through the book and comprehend its contents. Federer's exposition on Geometric Measure Theory is broken up into five (large) chapters:
+In this course, we will be using the textbook *Geometric Measure Theory* by Herbert Federer. It was published in the year 1969, but remains the central reference text for the subject. The goal of this course is to read through the book and comprehend its contents. Federer's exposition on Geometric Measure Theory is broken up into five (large) chapters:
 
 - Grassmann algebra
 - General measure theory

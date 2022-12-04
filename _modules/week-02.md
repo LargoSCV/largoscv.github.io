@@ -1,12 +1,12 @@
 ---
-title: Week 2 - Multilinear Algebra II
+title: Week 2 - Borel and Suslin Sets
 ---
-**READ**: Federer pp. 24-49
+**READ**: Federer pp. 59-72
 Dec 21
 : **Study Session**{: .label .label-blue } Wednesday Study Session
   : [Study Session Notes](#)
   
 Dec 24
-: **Meeting**{: .label .label-blue } 1.6 - 1.10 Discussion
+: **Meeting**{: .label .label-blue } 2.2 Discussion
   : [Study Session Notes](#)
 : **HW 2 Due**{: .label .label-red }
