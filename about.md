@@ -48,9 +48,10 @@ _Geometric Measure Theory_ is a notoriously difficult and technical text requiri
   - _Measure Theory_ by Donald L. Cohn (2nd Edition)
   - _Lectures on Geometric Measure Theory_ by Leon Simon
   - _Classical Descriptive Set Theory_  by Alexander Kechris
+
 ## Problem Sets
 
-Problem sets have been posted in the [calendar](calendar.md). 
+Weekly problem sets will be posted in the [calendar](calendar.md). 
 
 Federer's textbook does not have exercises. Therefore, most problems in the problem sets are routine computations and (generally) proofs meant to help you digest the contents of the textbook. 
 Problems listed in the problem sets align chronologically with the presentation of material, so you should try to do them _as_ you read. At the end of each problem set, more challenging problems are marked with 
