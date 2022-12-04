@@ -1,5 +1,5 @@
 ---
-title: Week 6 - Tensor Products \& Product Measures
+title: Week 6 - Tensor Products & Product Measures
 ---
 **READ**: Federer pp. 8-13, 114-121
 
