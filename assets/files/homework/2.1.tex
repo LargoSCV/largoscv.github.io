@@ -1,0 +1,123 @@
+\documentclass[10pt]{article}
+
+
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tikz-cd}
+\usepackage{relsize}
+
+\title{\selectfont\textbf{ Geometric Measure Theory} \\
+	Problem Set 1 \\ \normalsize{2.1 - Measures and Measurable Sets}}
+\date{}
+
+
+
+\begin{document}
+	\maketitle
+	
+	\noindent \textbf{Problem 1.} (Numerical Summations) 
+		\begin{itemize}
+			\item[(a)] Let $A$ be a finite subset of $\mathbf{R}$. Prove that there exists one and only one summation operator $\sum_A$ on nonnegative functions such that the following hold:
+				\begin{itemize}
+					\item[(i)] $\sum_\emptyset f = 0$,
+					\item[(ii)] If $a \in A$, $f(a) \geq 0$, and $f(x) = 0$ whenever $a \neq x \in A$, then $\sum_A f = f(a)$. 
+					\item[(iii)] If $f(x) \geq 0$ and $g(x) \geq 0$ whenever $x \in A$, then $$\sum_A (f + g) = \sum_A f + \sum_A g.$$ 
+				\end{itemize}
+			Hint: Suppose there exists another summation operator, say $\widetilde{\sum}_A$ on nonnegative functions that satisfies conditions (i)-(iii). Show that (through induction on $\text{card } A$) for all nonnegative functions $f$ that we have $\sum_A f = \widetilde{\sum}_A f$. 
+			
+			\item[(b)] Show that if $\sum_A f \in \overline{\mathbf{R}}$ and $h: A \to Y$, then $$\sum_A f = \sum_{y \in Y} \sum_{h^{-1}\{y\}} f.$$
+			
+			\item[(c)] Use the results of (b) to conclude:
+				\begin{itemize}
+					\item[(i)]  If $0 \neq c \in \mathbf{R}$, then $\sum_A cf = c \sum_A f$,
+					
+					\item[(ii)] If $\sum_A f + \sum_A g \in \overline{\mathbf{R}}$, then $\sum_A (f + g) = \sum_A f + \sum_A g$. 
+					
+					\item[(iii)] If $\sum_A f \in \overline{\mathbf{R}}$ and $A = U \times V$, then $$\sum_A f = \sum_{u \in U} \sum_{v \in V} f(u, v) = \sum_{u \in V} \sum_{v \in U} f(u, v).$$
+				\end{itemize}
+		\end{itemize}
+	
+	\newpage 
+	\noindent \textbf{Problem 2.} (Examples of Measures) ~
+		\begin{itemize}
+			\item[(a)] Let $\phi$ be any measure over a set $X$. For any set $Y \subset X$, show that the function $$\phi \mathlarger\llcorner Y : \mathbf{2}^X \to [0, \infty] \qquad (\phi \mathlarger \llcorner Y)(A) = \phi(Y \cap A) \text{ for } A \subset X$$ defines a measure over $X$. 
+			
+			\item[(b)] Let $f: X \to Y$ be a function. Show that for any measure $\phi$ over $X$, the function $$f_{\#}(\phi): \mathbf{2}^X \to [0, \infty] \qquad (f_{\#} \phi)(B) = \phi(f^{-1}B) \text{ for } B \subset Y$$ defines a measure over $Y$. 
+			
+			\item[(c)] Verify that $f^{-1}(B)$ is $\phi$ measurable if and only if $B$ is $f_{\#}(\phi \mathlarger \llcorner A)$ measurable for every $A \subset X$. 
+			
+			\item[(d)] Verify that all subsets of a set $X$ are measurable with respect to the counting measure. 
+		\end{itemize}
+	
+	\vspace{20pt}
+	
+	\noindent \textbf{Problem 3.} Suppose $\phi$ measures $X$. Prove that if $A$ is a $\phi$ measurable set and $B \subset X$, then $$\phi(A) + \phi(B) = \phi(A \cap B) + \phi(A \cup B).$$
+	
+	\vspace{20pt}
+	
+	\noindent \textbf{Problem 4.} Show that, if $\phi(X) < \infty$ is a regular measure, $f: X \to Y$ and $C$ is an $f_{\#}$ $\phi$ measurable set, then $f^{-1}(C)$ is $\phi$ measurable.
+	
+	\vspace{20pt}
+	
+	\noindent \textbf{Problem 5.} (Building Regular Measures) Let $\phi$ be an arbitrary measure over $X$. 
+		\begin{itemize}
+			\item[(a)] Show that the measure $\gamma$ defined by the formula $$\gamma(A) = \inf \{\phi(B) : A \subset B \text{ and } B \text{ is } \phi \text{ measurable}\}$$ for $A \subset X$ is regular. 
+			
+			\item[(b)] If $A$ is $\phi$ measurable, then $A$ is $\gamma$ measurable and $\phi(A) = \gamma(A)$.
+			
+			\item[(c)] If $A $ is $\gamma$ measurable and $\gamma(A) < \infty$, then $A$ is $\phi$ measurable.
+		\end{itemize}
+	
+	\vspace{20pt}
+	
+	\noindent \textbf{Problem 6*.} (Ulam Numbers) ~
+		\begin{itemize}
+			\item[(a)]  Show that $\aleph_0$ is an Ulam number.
+			
+			\item[(b)] Show that the class of all Ulam numbers is an initial segment in the well ordered class of all cardinal numbers.
+			
+			\item[(c)] Show that if there exist any cardinal numbers which are not Ulam numbers, the smallest such number cannot be accessible. 
+		\end{itemize}
+	
+	\newpage 
+	\section*{Additional Exercises}
+	
+	\vspace{10pt}
+	
+	\noindent \textbf{Problem 7*.} Define functions $\mu_1, \dots \mu_6$ on $\mathbf{2}^X$ by
+		\begin{align*}
+			\mu_1(A) &= \begin{cases}
+				0 & \text{if } A \text{ is empty}, \\
+				1 & \text{if } A \text{ is nonempty}, 
+			\end{cases} \\
+			\mu_2(A) &= \begin{cases}
+				0 & \text{if } A \text{ is empty}, \\
+				+\infty & \text{if } A \text{ is nonempty}, 
+			\end{cases} \\
+			\mu_3(A) &= \begin{cases}
+				0 & \text{if } A \text{ is bounded}, \\
+				1 & \text{if } A \text{ is unbounded}, 
+			\end{cases} \\
+			\mu_4(A) &= \begin{cases}
+				0 & \text{if } A \text{ is bounded}, \\
+				1 & \text{if } A \text{ is unbounded}, 
+			\end{cases} \\
+			\mu_5(A) &= \begin{cases}
+				0 & \text{if } A \text{ is empty}, \\
+				1 & \text{if } A \text{ is nonempty and bounded}, \\
+				+\infty &\text{if } A \text{ is unbounded}
+			\end{cases} \\
+			\mu_6(A) &= \begin{cases}
+				0 & \text{if } A \text{ is countable, and}, \\
+				+\infty & \text{if } A \text{ is uncountable}, 
+			\end{cases} \\
+		\end{align*}
+	Which of the above functions define measures? For each one that defines a measure, what are the respective measurable subsets of $\mathbf{R}$? 
+	
+	\vspace{20pt}
+	
+	\noindent \textbf{Problem 8.} (The 1-Dimensional Lebesgue Measure) For each subset $A$ of $\mathbf{R}$, define the \textbf{1-Dimensional Lebesgue Measure} $$\mathcal{L}^1: \mathbf{2}^X \to [0, \infty]$$ by $$\mathcal{L}^1(A) = \inf \sum_i (b_i - a_i)$$ where the infimum is taken over all collections $\mathcal{C}_A = \{(a_i, b_i)\}$ of open intervals whose union $\bigcup_i (a_i, b_i)$ covers $A$. I.e., $A \subseteq \bigcup_i (a_i, b_i)$. Show that $\mathcal{L}^1(C) = 0$ for every countable subset $C$ of $\mathbf{R}$. 
+	
+\end{document}

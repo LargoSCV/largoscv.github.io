@@ -5,7 +5,7 @@ title: Week 1 - Measures and Measurable Sets
 
 Dec 10
 : **Meeting**{: .label .label-red } Overview of Geometric Measure Theory
-  : [Meeting Notes](#)
+  : Meeting Notes ([pdf](#)),  HW1 ([tex](#), [pdf](#))
   
 Dec 14
 : **Study Session**{: .label .label-blue } Wednesday Study Session

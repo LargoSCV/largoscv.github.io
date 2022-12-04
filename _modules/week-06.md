@@ -10,4 +10,4 @@ Jan 14
 Jan 21
 : **Meeting**{: .label .label-blue } 2.6 Discussion
   : [Study Session Notes](#)
-: **HW 5 Due**{: .label .label-red }
+: **HW 6 Due**{: .label .label-red }
