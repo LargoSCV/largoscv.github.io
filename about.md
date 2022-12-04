@@ -30,7 +30,7 @@ The only one of these topics typically not covered in an American undergraduate 
 **This course in GMT is self-contained with regard to all those topics in multi-linear algebra, analysis, differential geometry, and algebraic topology which occur in the textbook.**
 
 ## Structure & Schedule
-From 10 December 2022 to 23 January 2022 the goal is to cover sections 2.1-2.7. We will initially skip chapter 1. When we finish section 2.5, we will take a short detour to read the first half of chapter 1 before continuing on to section 2.6. 
+From 10 December 2022 to 21 January 2022 the goal is to cover sections 2.1-2.7. We will initially skip chapter 1. When we finish section 2.5, we will take a short detour to read the first half of chapter 1 before continuing on to section 2.6. 
 
 
 ## Resources and other Textbooks
