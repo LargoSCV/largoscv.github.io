@@ -7,5 +7,5 @@ Dec 21
 : **Study Session**{: .label .label-blue } Wednesday Study Session
   
 Dec 24
-: **Meeting**{: .label .label-blue } 2.2 Discussion
+: **Meeting**{: .label .label-blue } 2.2 Discussion & wrap-up
 : **HW 2 Due**{: .label .label-red }
