@@ -1,5 +1,5 @@
 ---
-title: Week 2 - Borel and Suslin Sets
+title: Week 2 (18 Dec to 24 Dec) - Borel and Suslin Sets
 ---
 **READ**: Federer pp. 59-72
 

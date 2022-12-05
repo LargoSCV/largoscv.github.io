@@ -1,5 +1,5 @@
 ---
-title: Week 3 - Measurable Functions
+title: Week 3 (25 Dec to 31 Dec) - Measurable Functions
 ---
 **READ**: Federer pp. 72-80
 

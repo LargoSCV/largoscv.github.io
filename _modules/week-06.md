@@ -1,9 +1,9 @@
 ---
-title: Week 6 - Tensor Products & Product Measures
+title: Week 6 (15 Jan to 21 Jan) - Tensor Products & Product Measures
 ---
 **READ**: Federer pp. 8-13, 114-121
 
-Jan 14
+Jan 18
 : **Study Session**{: .label .label-blue } Wednesday Study Session
   
 Jan 21
