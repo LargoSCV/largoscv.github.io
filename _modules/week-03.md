@@ -2,6 +2,7 @@
 title: Week 3 - Measurable Functions
 ---
 **READ**: Federer pp. 72-80
+
 Dec 28
 : **Study Session**{: .label .label-blue } Wednesday Study Session
   
