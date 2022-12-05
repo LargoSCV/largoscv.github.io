@@ -1,0 +1,106 @@
+\documentclass[10pt]{article}
+
+
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tikz-cd}
+\usepackage{relsize}
+
+\title{\selectfont\textbf{ Geometric Measure Theory} \\
+	Problem Set 2 \\ \normalsize{2.2 - Borel and Suslin Sets}}
+\date{}
+
+
+
+\begin{document}
+	\maketitle
+	
+	\noindent \textbf{Problem 1.} (Borel families)
+		\begin{itemize}
+			\item[(a)] Show that the collection of all single-point sets in a set $X$ generates the Borel family consisting of all sets that are either at most countable or have at most countable complements. 
+			
+			\item[(b)] Show that the Borel family in (a) is strictly smaller than the collection of Borel sets of $\mathbf{R}$ endowed with the standard topology.
+			
+			\item[(c)] Let $T$ be a rotation of $\mathbf{R}^2$ (endowed with the standard topology) about the origin. Show that $A \subset \mathbf{R}^2$ is a Borel set if and only if $T(A)$ is a Borel set.
+		\end{itemize}
+	
+	\noindent \textbf{Problem 2.} If $\phi$ mesaures $X$, explain why the class of all $\phi$ measurable sets is a Borel family.
+		
+	
+	\vspace{20pt}
+	
+	\noindent \textbf{Problem 3.} (Support of a measure) Find an example of a measure $\phi$ over a space with a topology $T$ such that the equation $$\phi(X \thicksim \text{spt }\phi) = 0$$ does not hold.  
+	
+	\vspace{20pt}
+	
+	\noindent \textbf{Problem 4.} (Borel regularity) ~
+		\begin{itemize}
+			\item[(a)] Show that if $\phi$ is Borel regular and $A$ is a Borel set, then $\phi \llcorner A$ is Borel regular. 
+			
+			\item[(b)] If $\phi$ is any measure over a topological space $X$ such that all Borel subsets of $X$ are $\phi$ measurable, and if $$\psi(A) := \inf \{ \phi(B) : A \subset B \text{ and } B \text{ is a Borel set}\}$$ whenever $A \subset X$, show that $\psi$ is a Borel regular measure, and that $\psi \equiv \phi$ on the Borel sets of $X$.  
+		\end{itemize}
+	
+	\vspace{20pt}
+	
+	\noindent \textbf{Problem 5.} (Theorem 2.2.4, Existence of nonmeasurable subsets) Let $\phi$ be a Borel regular measure over a complete, separable metric space $X$, $0 < \phi(A) < \infty$, and $\phi(\{x\}) = 0$ whenever $x \in A$.  
+		\begin{itemize}
+			\item[(a)] Consider the class $\mathit \Gamma$ of all closed subsets $C$ of $A$ for which $\phi(C) > 0$. Explain why $\text{card}(C) = 2^{\aleph_0}$, and why $\text{card}(\mathit \Gamma) \leq 2^{\aleph_0}$. 
+			
+			\item[(b)] Then, prove it follows that there exists a well-ordering of $\mathit \Gamma$ such that, for each $C \in \Gamma$, the set $\mathit \Gamma_C$ of predecessors of $C$ has cardinal less than $2^{\aleph_0}$.
+			
+			\item[(c)] If $A $ is $\gamma$ measurable and $\gamma(A) < \infty$, then $A$ is $\phi$ measurable.
+		\end{itemize}
+	
+	\vspace{20pt}
+	
+	\noindent \textbf{Problem 6*.} (Ulam Numbers) ~
+		\begin{itemize}
+			\item[(a)]  Show that $\aleph_0$ is an Ulam number.
+			
+			\item[(b)] Show that the class of all Ulam numbers is an initial segment in the well ordered class of all cardinal numbers.
+			
+			\item[(c)] Show that if there exist any cardinal numbers which are not Ulam numbers, the smallest such number cannot be accessible. 
+		\end{itemize}
+	
+	\newpage 
+	\section*{Additional Exercises}
+	
+	\vspace{10pt}
+	
+	\noindent \textbf{Problem 7*.} Define functions $\mu_1, \dots \mu_6$ on $\mathbf{2}^X$ by
+		\begin{align*}
+			\mu_1(A) &= \begin{cases}
+				0 & \text{if } A \text{ is empty}, \\
+				1 & \text{if } A \text{ is nonempty}, 
+			\end{cases} \\
+			\mu_2(A) &= \begin{cases}
+				0 & \text{if } A \text{ is empty}, \\
+				+\infty & \text{if } A \text{ is nonempty}, 
+			\end{cases} \\
+			\mu_3(A) &= \begin{cases}
+				0 & \text{if } A \text{ is bounded}, \\
+				1 & \text{if } A \text{ is unbounded}, 
+			\end{cases} \\
+			\mu_4(A) &= \begin{cases}
+				0 & \text{if } A \text{ is bounded}, \\
+				1 & \text{if } A \text{ is unbounded}, 
+			\end{cases} \\
+			\mu_5(A) &= \begin{cases}
+				0 & \text{if } A \text{ is empty}, \\
+				1 & \text{if } A \text{ is nonempty and bounded}, \\
+				+\infty &\text{if } A \text{ is unbounded}
+			\end{cases} \\
+			\mu_6(A) &= \begin{cases}
+				0 & \text{if } A \text{ is countable, and}, \\
+				+\infty & \text{if } A \text{ is uncountable}, 
+			\end{cases} \\
+		\end{align*}
+	Which of the above functions define measures? For each one that defines a measure, what are the respective measurable subsets of $\mathbf{R}$? 
+	
+	\vspace{20pt}
+	
+	\noindent \textbf{Problem 8.} (The 1-Dimensional Lebesgue Measure) For each subset $A$ of $\mathbf{R}$, define the \textbf{1-Dimensional Lebesgue Measure} $$\mathcal{L}^1: \mathbf{2}^X \to [0, \infty]$$ by $$\mathcal{L}^1(A) = \inf \sum_i (b_i - a_i)$$ where the infimum is taken over all collections $\mathcal{C}_A = \{(a_i, b_i)\}$ of open intervals whose union $\bigcup_i (a_i, b_i)$ covers $A$. I.e., $A \subseteq \bigcup_i (a_i, b_i)$. Show that $\mathcal{L}^1(C) = 0$ for every countable subset $C$ of $\mathbf{R}$. 
+	
+\end{document}
