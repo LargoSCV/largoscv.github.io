@@ -6,7 +6,7 @@ title: Week 1 (10 Dec to 17 Dec)- Measures and Measurable Sets
 Dec 10
 : **Meeting**{: .label .label-red } Overview of Geometric Measure Theory
 : HW1 ([tex](https://github.com/LargoSCV/largoscv.github.io/tree/main/assets/files/homework/2.1.tex), [pdf](https://github.com/LargoSCV/largoscv.github.io/tree/main/assets/files/homework/2.1.pdf)) Lecture ([video](https://www.youtube.com/watch?v=enu8eZ-c-Xc), [notes](https://github.com/LargoSCV/largoscv.github.io/tree/main/assets/files/notes/1.pdf))
-: [Zariski's Paper](https://github.com/LargoSCV/largoscv.github.io/tree/main/assets/files/notes/zariski.pdf) (Referenced as [ZA] on pg. 59) Translated by etropy.
+: [Tarski's Paper](https://github.com/LargoSCV/largoscv.github.io/tree/main/assets/files/notes/zariski.pdf) (Referenced as [TA] on pg. 59) Translated by etropy.
 : [Set Theory Cheat-Sheet](https://github.com/LargoSCV/largoscv.github.io/tree/main/assets/files/notes/sets.pdf)
 
 Dec 14
